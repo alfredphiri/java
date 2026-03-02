@@ -36,7 +36,9 @@ public class alfred {
         
         System.out.println("New Age: " + age);
         System.out.println("New Height: " + height);
-        System.out.println("New Is Student: " + isStudent);
+        System.out.println("Is Student: " + isStudent);
+
+
     }
 
 
