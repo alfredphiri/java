@@ -27,7 +27,16 @@ public class alfred {
         int x = 10, y = 20, z = 30;
         System.out.println("x = " + x + ", y = " + y + ", z = " + z);
 
+        // reinitialization of variables
+        System.out.println("Reinitialization of variables");
+        age = 27;
+        height = 1.85;
+        isStudent = false;
+    
         
+        System.out.println("New Age: " + age);
+        System.out.println("New Height: " + height);
+        System.out.println("New Is Student: " + isStudent);
     }
 
 
