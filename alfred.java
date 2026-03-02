@@ -21,5 +21,14 @@ public class alfred {
         System.out.println("Height: " + height);
         System.out.println("Is Student: " + isStudent);
         System.out.println("Gender: " + gender);
+
+        // declaration of variables on a single line
+
+        int x = 10, y = 20, z = 30;
+        System.out.println("x = " + x + ", y = " + y + ", z = " + z);
+
+        
     }
+
+
 }
