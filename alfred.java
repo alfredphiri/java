@@ -1,3 +1,6 @@
+// importing scanner class
+import java.util.Scanner;
+
 public class alfred {
     public static void main(String[] args) {
         System.out.println("Hello Everyone");
@@ -38,8 +41,13 @@ public class alfred {
         System.out.println("New Height: " + height);
         System.out.println("Is Student: " + isStudent);
 
+        // initialising a scanner object
 
+        Scanner object = new Scanner(System.in);
+
+        System.out.print("Enter Your Age Brother: ");
+        int brotherAge = object.nextInt();
+        System.out.println("Brother's Age: " + brotherAge);
+        object.close();
     }
-
-
 }
