@@ -2,9 +2,9 @@
 import java.util.Scanner;
 
 public class alfred {
+
     public static void main(String[] args) {
         System.out.println("Hello Everyone");
-
 
         // variable declaration
 
@@ -14,7 +14,7 @@ public class alfred {
         double height = 1.75;
         boolean isStudent = true;
         char gender = 'M';
-        
+
         // print variables
 
         System.out.println("\n\n MY PERSONAL DETAILS\n\n");
@@ -27,7 +27,9 @@ public class alfred {
 
         // declaration of variables on a single line
 
-        int x = 10, y = 20, z = 30;
+        int x = 10,
+            y = 20,
+            z = 30;
         System.out.println("x = " + x + ", y = " + y + ", z = " + z);
 
         // reinitialization of variables
@@ -35,8 +37,7 @@ public class alfred {
         age = 27;
         height = 1.85;
         isStudent = false;
-    
-        
+
         System.out.println("New Age: " + age);
         System.out.println("New Height: " + height);
         System.out.println("Is Student: " + isStudent);
@@ -48,6 +49,7 @@ public class alfred {
         System.out.print("Enter Your Age Brother: ");
         int brotherAge = object.nextInt();
         System.out.println("Brother's Age: " + brotherAge);
+
         object.close();
     }
 }
